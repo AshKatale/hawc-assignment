@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# 🔐 Infinity - Expo Auth App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and responsive **authentication UI** built using **React Native with Expo**.  
+This app allows users to **register**, **login**, and **reset their password** using an intuitive frontend-only interface.
 
-## Get started
+---
 
-1. Install dependencies
+**Download APK using following link**
+- [Download](https://drive.google.com/file/d/1ZENHwOW3Wi2x6u-hK2tlK87RYSP_3evz/view?usp=sharing)
 
-   ```bash
-   npm install
-   ```
+**Demo Video**
+- [Watch](https://youtu.be/FmQj4_DOiGU)
 
-2. Start the app
+## 🚀 Features
 
-   ```bash
-   npx expo start
-   ```
+- ✅ Email & Password Login
+- ✅ New User Registration (with Username)
+- ✅ Forgot / Reset Password flow
+- ✅ Input Validation with feedback
+- ✅ Responsive design for Android and iOS
+- ✅ Built using Expo (Managed Workflow)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Framework**: [React Native](https://reactnative.dev/)
+- **Tooling**: [Expo](https://expo.dev/)
+- **Navigation**: `@react-navigation/native`
+- **UI**: React Native core components + custom styling
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧪 How to Run the App Locally
 
+1. **Clone the repository**
 ```bash
-npm run reset-project
+git clone https://github.com/AshKatale/hawc-assignment.git
+cd hawc-assignment
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-## Learn more
+3. **Start the Expo server**
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. **Run on your device**
+- Use Expo Go app (Android/iOS)
+- Or run on an emulator using options in Expo DevTools
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🔄 Future Improvements
 
-Join our community of developers creating universal apps.
+- Add backend integration for auth (Firebase/Auth0/Custom)
+- Add biometric login (Fingerprint/Face ID)
+- Improve UI with theming and animations
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [Ashitosh Katale](https://github.com/ashitosh1409)

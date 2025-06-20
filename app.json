@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "hawc",
-    "slug": "hawc",
+    "name": "Infinity",
+    "slug": "auth-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "hawc",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ashitosh1409.authapp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "71783536-c7da-4b2f-b1b3-877778ae1e66"
+      }
+    },
+    "owner": "ashitosh1409"
   }
 }
